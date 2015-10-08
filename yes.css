@@ -53,10 +53,18 @@ display: block;
 }
 
 .image3 {
-	border-width: 10px 7.5px 0 7.5px;
-	border-color: #858585 transparent transparent transparent;
-	clear: left;
-
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 9px 7px 0 5px;
+border-color: #5b5c5e transparent transparent transparent;
+line-height: 0px;
+_border-color: #5b5c5e #000000 #000000 #000000;
+_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+float: right;
+position: relative;
+bottom:4px;
+left:-3px;
 }
 
 .image {
